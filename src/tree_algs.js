@@ -39,33 +39,39 @@ const tree = [
 ]
 
 const recursive = (tree) => {
+
     let sum = 0;
     tree.forEach(node => {
-        sum += node.v
+        sum += node.v;
         if(!node.c) {
-            return node.v
+            return node.v;
         }
-        sum += recursive(node.c)
+        sum += recursive(node.c);
     })
-    return sum
+
+    return sum;
+
 }
 
 const iteration = (tree) => {
+
     if (!tree.length) {
-        return 0
+        return 0;
     }
-    let sum = 0
-    let stack = []
+    let sum = 0;
+    let stack = [];
     tree.forEach(node => stack.push(node));
     while (stack.length) {
-        const node = stack.pop()
-        sum += node.v
+        const node = stack.pop();
+        sum += node.v;
         if (node.c) {
-            node.c.forEach(child => stack.push(child))
+            node.c.forEach(child => stack.push(child));
         }
     }
-    return sum
+
+    return sum;
+
 }
 
-console.log(iteration(tree))
-// console.log(recursive(tree))
+console.log('iteration = ', iteration(tree));
+console.log('recursive = ', recursive(tree));

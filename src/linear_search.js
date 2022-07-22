@@ -1,14 +1,19 @@
-const array = [1,4,5,8,5,1,2,7,5,2,11]
-let count = 0
+const arr = [5,7,8,4,2,3,6,5,1,25,54,7,85,652,4,2,4];
+let count = 0;
+
 function linearSearch(array, item) {
+
     for (let i = 0; i < array.length; i++) {
-        count += 1
+        count += 1;
         if (array[i] === item) {
             return i;
         }
     }
-    return null
+
+    return null;
+
 }
 
-console.log(linearSearch(array, 1))
-console.log('count = ', count)
+console.log(linearSearch(arr, 25));
+console.log('Iterations = ', count);
+console.log('Algorithm complexity - O(n)');
