@@ -4,11 +4,16 @@ Dzmitry Karachun [Linkein](https://www.linkedin.com/in/dzmitry-karachun/)
 
 ![ADS](./images/ADS.png)
 
----
+> In computer science, a data structure is a data organization, management, and storage format that is usually chosen for efficient access to data.
 
 > In mathematics and computer science, an algorithm is a finite sequence of rigorous instructions, typically used to solve a class of specific problems or to perform a computation. Algorithms are used as specifications for performing calculations and data processing.
 
-> In computer science, a data structure is a data organization, management, and storage format that is usually chosen for efficient access to data.
+## Data structures:
+
+1. **binary_tree.js** - tree data structure in which each node has at most two children.
+2. **linked_list.js** - linear collection of data elements whose order is not given by their physical placement in memory.
+3. **matrix.js** - composed of numbers in two dimensions: rows and columns.
+4. **tree_algs.js** - data type that represents a hierarchical tree structure with a set of connected nodes.
 
 ## Algorithms:
 
@@ -22,9 +27,4 @@ Dzmitry Karachun [Linkein](https://www.linkedin.com/in/dzmitry-karachun/)
 8. **recursion.js** - method of solving a computational problem where the solution depends on solutions to smaller instances of the same problem.
 9. **selection_sort.js** - in-place comparison sorting algorithm. It has an O(n²) time complexity, which makes it inefficient on large lists, and generally performs worse than the similar insertion sort.
 
-## Data structures:
-
-1. **binary_tree.js** - tree data structure in which each node has at most two children.
-2. **linked_list.js** - linear collection of data elements whose order is not given by their physical placement in memory.
-3. **matrix.js** - composed of numbers in two dimensions: rows and columns.
-4. **tree_algs.js** - data type that represents a hierarchical tree structure with a set of connected nodes.
+---
